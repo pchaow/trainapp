@@ -15,18 +15,24 @@
   {
    "fieldname": "asset_name",
    "fieldtype": "Data",
-   "label": "\u0e0a\u0e37\u0e48\u0e2d\u0e2a\u0e34\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e4c"
+   "in_list_view": 1,
+   "label": "\u0e0a\u0e37\u0e48\u0e2d\u0e2a\u0e34\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e4c",
+   "reqd": 1
   },
   {
    "fieldname": "asset_type",
    "fieldtype": "Data",
-   "label": "\u0e0a\u0e19\u0e34\u0e14\u0e2a\u0e34\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e4c"
+   "in_list_view": 1,
+   "label": "\u0e0a\u0e19\u0e34\u0e14\u0e2a\u0e34\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e4c",
+   "reqd": 1
   },
   {
    "fieldname": "location",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48",
-   "options": "Location"
+   "options": "Location",
+   "reqd": 1
   },
   {
    "fieldname": "room",
@@ -37,12 +43,14 @@
   {
    "fieldname": "asset_price",
    "fieldtype": "Data",
-   "label": "\u0e23\u0e32\u0e04\u0e32\u0e2a\u0e34\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e4c"
+   "in_list_view": 1,
+   "label": "\u0e23\u0e32\u0e04\u0e32\u0e2a\u0e34\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e4c",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-03 15:15:30.465030",
+ "modified": "2024-04-03 15:50:08.619802",
  "modified_by": "Administrator",
  "module": "Trainapp",
  "name": "Asset",

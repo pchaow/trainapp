@@ -14,10 +14,10 @@ class Asset(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
-		asset_name: DF.Data | None
-		asset_price: DF.Data | None
-		asset_type: DF.Data | None
-		location: DF.Link | None
+		asset_name: DF.Data
+		asset_price: DF.Data
+		asset_type: DF.Data
+		location: DF.Link
 		room: DF.Link | None
 	# end: auto-generated types
 
