@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-03 15:12:42.277171",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "asset_name",
+  "asset_price",
+  "asset_type",
+  "location",
+  "room"
+ ],
+ "fields": [
+  {
+   "fieldname": "asset_name",
+   "fieldtype": "Data",
+   "label": "\u0e0a\u0e37\u0e48\u0e2d\u0e2a\u0e34\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e4c"
+  },
+  {
+   "fieldname": "asset_type",
+   "fieldtype": "Data",
+   "label": "\u0e0a\u0e19\u0e34\u0e14\u0e2a\u0e34\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e4c"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48",
+   "options": "Location"
+  },
+  {
+   "fieldname": "room",
+   "fieldtype": "Link",
+   "label": "\u0e2b\u0e49\u0e2d\u0e07",
+   "options": "Room"
+  },
+  {
+   "fieldname": "asset_price",
+   "fieldtype": "Data",
+   "label": "\u0e23\u0e32\u0e04\u0e32\u0e2a\u0e34\u0e19\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e4c"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-03 15:15:30.465030",
+ "modified_by": "Administrator",
+ "module": "Trainapp",
+ "name": "Asset",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
