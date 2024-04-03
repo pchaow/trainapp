@@ -199,7 +199,7 @@ app_license = "mit"
 # 		"redact_fields": ["{field_1}", "{field_2}"],
 # 		"partial": 1,
 # 	},
-# 	{
+# 	{   ````````
 # 		"doctype": "{doctype_2}",
 # 		"filter_by": "{filter_by}",
 # 		"partial": 1,
