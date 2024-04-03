@@ -14,6 +14,7 @@ class Room(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
+		location: DF.Link
 		room_name: DF.SmallText
 	# end: auto-generated types
 
