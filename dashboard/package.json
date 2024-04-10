@@ -11,9 +11,15 @@
     "copy-html-entry": "cp ../trainapp/public/dashboard/index.html ../trainapp/www/dashboard.html"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.2.10",
+    "framer-motion": "^11.0.25",
     "frappe-react-sdk": "^1.5.1",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "sort-by": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
