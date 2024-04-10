@@ -1,4 +1,5 @@
 import { useState } from 'react'
+<<<<<<< HEAD
 import reactLogo from './assets/react.svg'
 import './App.css'
 import { FrappeProvider } from 'frappe-react-sdk'
@@ -33,6 +34,31 @@ function App() {
 	  </FrappeProvider>
 	</div>
   )
+=======
+import './App.css'
+import { FrappeProvider } from 'frappe-react-sdk'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import IndexPage from './pages/Index'
+import LoginPage from './pages/Login'
+function App() {
+
+
+	return (
+		<div className="App">
+			<FrappeProvider siteName={import.meta.env.VITE_FRAPPE_URL ?? window.origin}
+				socketPort={import.meta.env.VITE_SOCKET_PORT ?? ''}
+			>
+				<BrowserRouter basename={import.meta.env.VITE_BASE_PATH}>
+					<Routes>
+						<Route path='/login' element={<LoginPage />} />
+						<Route path='/' element={<IndexPage />} />
+					</Routes>
+				</BrowserRouter>
+
+			</FrappeProvider>
+		</div>
+	)
+>>>>>>> 2d1207133c3571fe6ace406159b747164f756796
 }
 
 export default App

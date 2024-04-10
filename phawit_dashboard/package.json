@@ -1,31 +1,19 @@
 {
-  "name": "dashboard",
+  "name": "phawit_dashboard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/assets/trainapp/dashboard/ && yarn copy-html-entry",
+    "build": "vite build --base=/assets/trainapp/phawit_dashboard/ && yarn copy-html-entry",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "copy-html-entry": "cp ../trainapp/public/dashboard/index.html ../trainapp/www/dashboard.html"
+    "copy-html-entry": "cp ../trainapp/public/phawit_dashboard/index.html ../trainapp/www/phawit_dashboard.html"
   },
   "dependencies": {
-<<<<<<< HEAD
     "frappe-react-sdk": "^1.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-=======
-    "@nextui-org/react": "^2.2.10",
-    "framer-motion": "^11.0.25",
-    "frappe-react-sdk": "^1.5.1",
-    "localforage": "^1.10.0",
-    "match-sorter": "^6.3.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3",
-    "sort-by": "^1.2.0"
->>>>>>> 2d1207133c3571fe6ace406159b747164f756796
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

@@ -1,0 +1,25 @@
+{% extends "templates/web.html" %}
+
+
+
+{% block header %}
+HELLO
+{% endblock %}
+
+{% block header_actions %}
+XXX
+{% endblock %}
+
+
+{%- block page_content -%}
+
+<h1>HELLO WORLD</h1>
+<h1>{{ XYZ }}</h1>
+
+<ul>
+    {% for i in rooms %}
+    <li>{{i.room_name}} - {{i.location}}</li>
+    {% endfor %}
+</ul>
+
+{%- endblock -%}
