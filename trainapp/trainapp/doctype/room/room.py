@@ -2,10 +2,10 @@
 # For license information, please see license.txt
 
 import frappe
-from frappe.model.document import Document
+from frappe.website.website_generator import WebsiteGenerator
 
 
-class Room(Document):
+class Room(WebsiteGenerator):
 	# begin: auto-generated types
 	# This code is auto-generated. Do not modify anything in this block.
 
@@ -16,6 +16,7 @@ class Room(Document):
 
 		location: DF.Link
 		room_name: DF.SmallText
+		route: DF.Data | None
 	# end: auto-generated types
 
 	pass

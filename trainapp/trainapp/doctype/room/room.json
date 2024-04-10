@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "creation": "2024-04-03 14:39:57.001717",
  "doctype": "DocType",
@@ -7,7 +8,8 @@
  "field_order": [
   "section_break_stqd",
   "room_name",
-  "location"
+  "location",
+  "route"
  ],
  "fields": [
   {
@@ -30,11 +32,17 @@
    "label": "\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48",
    "options": "Location",
    "reqd": 1
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "route"
   }
  ],
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-03 15:05:49.888999",
+ "modified": "2024-04-10 13:24:29.821668",
  "modified_by": "Administrator",
  "module": "Trainapp",
  "name": "Room",
@@ -53,6 +61,7 @@
    "write": 1
   }
  ],
+ "route": "room",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

@@ -1,0 +1,74 @@
+{
+ "allow_comments": 1,
+ "allow_delete": 1,
+ "allow_edit": 1,
+ "allow_incomplete": 1,
+ "allow_multiple": 1,
+ "allow_print": 1,
+ "anonymous": 0,
+ "apply_document_permissions": 1,
+ "button_label": "Save",
+ "condition_json": "[]",
+ "creation": "2024-04-10 13:31:20.535569",
+ "doc_type": "Room",
+ "docstatus": 0,
+ "doctype": "Web Form",
+ "idx": 0,
+ "is_standard": 1,
+ "list_columns": [
+  {
+   "fieldname": "room_name",
+   "fieldtype": "Small Text",
+   "label": "\u0e0a\u0e37\u0e48\u0e2d\u0e2b\u0e49\u0e2d\u0e07"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48"
+  }
+ ],
+ "list_title": "\u0e23\u0e32\u0e22\u0e01\u0e32\u0e23\u0e2b\u0e49\u0e2d\u0e07",
+ "login_required": 1,
+ "max_attachment_size": 0,
+ "modified": "2024-04-10 13:32:14.163575",
+ "modified_by": "Administrator",
+ "module": "Trainapp",
+ "name": "roomform",
+ "owner": "Administrator",
+ "published": 1,
+ "route": "roomform",
+ "show_attachments": 1,
+ "show_list": 1,
+ "show_sidebar": 1,
+ "title": "RoomForm",
+ "web_form_fields": [
+  {
+   "allow_read_on_all_link_options": 0,
+   "fieldname": "room_name",
+   "fieldtype": "Small Text",
+   "hidden": 0,
+   "label": "\u0e0a\u0e37\u0e48\u0e2d\u0e2b\u0e49\u0e2d\u0e07",
+   "max_length": 0,
+   "max_value": 0,
+   "precision": "",
+   "read_only": 0,
+   "reqd": 1,
+   "show_in_filter": 0
+  },
+  {
+   "allow_read_on_all_link_options": 0,
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "hidden": 0,
+   "label": "\u0e2a\u0e16\u0e32\u0e19\u0e17\u0e35\u0e48",
+   "max_length": 0,
+   "max_value": 0,
+   "options": "Location",
+   "precision": "",
+   "read_only": 0,
+   "reqd": 1,
+   "show_in_filter": 0
+  }
+ ],
+ "website_sidebar": "Test"
+}
